@@ -3,7 +3,7 @@ const router = express.Router();
 
 const getNewsController = require('../controllers/newsController');
 
-router.get('/', (req, res) => {
+router.get('/api/news/:query', (req, res) => {
   getNewsController(req, res);
 })
 
