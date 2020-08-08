@@ -8,3 +8,5 @@ It is a node application
       ### `npm install` <br />
   4. Start the server using below command
       ### `npm start`
+To test the application you can open: <br />
+[http://localhost:9000](http://localhost:9000) to view it in the browser.
